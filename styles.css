@@ -1,0 +1,91 @@
+
+body{
+    text-align: center;
+    margin-top: 100px;
+    background-color:  #1f1850;
+}
+
+.input_wrapper > input{
+    width: 40%;
+    height: 45px;
+    padding: 10px;
+    background-color:  #420c6b;
+    color: white;
+    font-size: 14px;
+    border-radius: 7px;
+}
+
+.row{
+    color: white;
+    margin-top: 50px;
+    background-color: #511281;
+    height: 450px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container{
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_img{
+    width: 20%;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.user_img > img{
+    width:100px; 
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    object-fit: cover;
+}
+
+.user_info{
+    width: 70%;
+    text-align: left;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+.user_name > h1{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.user_description{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.user_details > span{
+    margin-right: 3px;
+    font-size: 14px;
+}
+
+.user_details > p{
+    width: 20%;
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 14px;
+}
+
+.repo_details{
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-top: 8px;
+}
+
+.repo_details > span{
+    background-color: #3F3697;
+    margin-right: 10px;
+    padding: 2px;
+    margin-top: 10px;
+    display:inline-block;
+}
